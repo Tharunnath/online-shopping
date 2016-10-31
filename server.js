@@ -15,6 +15,6 @@ app.get("/",function(req,res){
 	//res.sendFile(path.join(__dirname + '/public/category.html'));
 	 res.sendFile( __dirname + "/public/" + "category.html" );
 })
-/*app.listen(PORT,function(){
+app.listen(PORT,function(){
 	console.log("server is listening at "+ PORT);
-});*/
+});
