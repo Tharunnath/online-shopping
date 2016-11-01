@@ -7,7 +7,7 @@ var bodyParser = require("body-parser");
 mongoose.connect("mongodb://localhost/contactlist",function(){
 	console.log("successfully connected to the mongodb")
 })*/
-var PORT = process.env.PORT || 6000;
+var PORT = process.env.PORT || 2000;
 app.use(express.static(__dirname+"/public"))
 app.get("/",function(req,res){
 	//res.send("helloajkajkl hyd");
