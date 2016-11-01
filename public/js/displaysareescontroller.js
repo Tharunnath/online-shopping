@@ -32,11 +32,19 @@ app.config(function($routeProvider){
 		templateUrl:'displaysarees.html',
 		controller:'benarasicontroller'
 	})
+
 	.when('/detail/:name/:category',{
 		templateUrl:'routeDetail.html',
 		controller:'detailcontroller'
 
-	});
+	})
+
+
+	.when('/register',{
+		templateUrl:'registernew.html',
+		controller:'registercontroller'
+	});	
+
 
 	});
 	
@@ -128,6 +136,10 @@ $scope.sareesdata=data;
 });
 }); 
 
+
+app.controller('registercontroller',function($scope,$http){
+
+}); 
 
 
 app.controller('detailcontroller',function($scope,$routeParams,$http) {
