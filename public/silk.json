@@ -2,6 +2,8 @@
 
 {
 "location":"images/silkimages/blue/blue1.jpg",
+"location1":"images/silkimages/blue/blue2.jpg",
+"location2":"images/silkimages/blue/blue3.jpg",
 "name":"Muskan Floral Silk Sari-Blue",
 "url":"#",
 "brand":"",
@@ -12,7 +14,10 @@
 "category":"Silk"
 },
 
-{"location":"images/silkimages/bluered/bluered1.jpg",
+{
+	"location":"images/silkimages/bluered/bluered1.jpg",
+	"location1":"images/silkimages/bluered/bluered2.jpg",
+	"location2":"images/silkimages/bluered/bluered3.jpg",
 "name":"RAW SILK NEW DESIGNER SAREE-BLUE AND RED BORDER",
 "url":"#",
 "brand":"",
@@ -25,6 +30,8 @@
 
 {
 "location":"images/silkimages/pink/pink1.jpg",
+"location1":"images/silkimages/pink/pink2.jpg",
+"location2":"images/silkimages/pink/pink3.jpg",
 "name":"SAREE MANDIR KANCHAN SILK SAREES CHIFFON-PINK COLOR SAREE",
 "url":"#",
 "brand":"",
@@ -37,6 +44,8 @@
 
 {
 "location":"images/silkimages/red/red1.jpg",
+"location1":"images/silkimages/red/red2.jpg",
+"location2":"images/silkimages/red/red3.jpg",
 "name":"VIPUL BHAGALPURI SAREE-RED",
 "url":"#",
 "brand":"",
@@ -49,6 +58,8 @@
 
 {
 "location":"images/silkimages/yellow/yellow1.jpg",
+"location1":"images/silkimages/yellow/yellow2.jpg",
+"location2":"images/silkimages/yellow/yellow3.jpg",
 "name":"Muskan Floral Silk Sari-Yellow",
 "url":"#",
 "brand":"",

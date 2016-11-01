@@ -31,7 +31,12 @@ app.config(function($routeProvider){
 	.when('/banarasi',{
 		templateUrl:'displaysarees.html',
 		controller:'benarasicontroller'
-	});	
+	})
+	.when('/detail/:name/:category',{
+		templateUrl:'routeDetail.html',
+		controller:'detailcontroller'
+
+	});
 
 	});
 	
@@ -125,5 +130,12 @@ $scope.sareesdata=data;
 
 
 
-
+app.controller('detailcontroller',function($scope,$routeParams,$http) {
+     $scope.name = $routeParams.name;
+           $scope.category = $routeParams.category.toLowerCase();
+        var sareeList=$http.get($scope.category+".json");
+       sareeList.success(function(data){
+$scope.sareesdata=data;
+});
+});   
 	
