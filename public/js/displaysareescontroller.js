@@ -16,11 +16,8 @@ app.config(function($routeProvider){
 	.when('/silk',{
 		templateUrl:'displaysarees.html',
 		controller:'silkcontroller'
-	})
-	.when('/cotton',{
-		templateUrl:'displaysarees.html',
-		controller:'cottoncontroller'
 	});
+	
 	
 	});
 	
@@ -90,12 +87,7 @@ $scope.sareesdata=data;
 });
 });      
 
-app.controller('cottoncontroller',function($scope,$http){
-var cottonlist=$http.get("cotton.json");
-cottonlist.success(function(data){
-$scope.sareesdata=data;
-});
-}); 
+
 
 
 
