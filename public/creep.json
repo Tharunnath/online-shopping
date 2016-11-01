@@ -1,7 +1,13 @@
 [
 
 {
+		"id":"cr1",
+
 "location":"images/crepeimages/white/white1.jpg",
+"location1":"images/crepeimages/white/white2.jpg",
+
+"location2":"images/crepeimages/white/white3.jpg",
+
 "name":"Fancy New Arrival Hiqh Quality Italian Crepe Silk Printed Saree",
 "url":"#",
 "brand":"Ishin",
@@ -9,10 +15,15 @@
 "cost":1100
 "offer":"40%",
 "colour":"White",
-"category":"Crepe"
+"category":"crepe"
 },
 
-{"location":"images/crepeimages/blue/blue1.jpg",
+{		"id":"cr2",
+
+	"location":"images/crepeimages/blue/blue1.jpg",
+		"location1":"images/crepeimages/blue/blue2.jpg",
+	"location2":"images/crepeimages/blue/blue3.jpg",
+
 "name":"Anurag Malgudi Silk Pure crepe Silk Saree",
 "url":"#",
 "brand":"Saree Swarg",
@@ -20,11 +31,16 @@
 "cost":1500,
 "offer":"50%",
 "colour":"Blue",
-"category":"crepe"
+"category":"Crepe"
 },
 
 {
+			"id":"cr3",
+
 "location":"images/crepeimages/yellow/yellow1.jpg",
+"location1":"images/crepeimages/yellow/yellow2.jpg",
+"location2":"images/crepeimages/yellow/yellow3.jpg",
+
 "name":"Yellow Crepe Bandhani Saree",
 "url":"#",
 "brand":"Triveni",
@@ -32,11 +48,18 @@
 "cost":1250,
 "offer":"50%",
 "colour":"Yellow",
-"category":"crepe"
+"category":"Crepe"
 },
 
 {
+			"id":"cr4",
+
 "location":"images/crepeimages/red/red1.jpg",
+"location1":"images/crepeimages/red/red2.jpg",
+"location2":"images/crepeimages/red/red3.jpg",
+
+
+
 "name":"Kanchnar Women's Black,Beige and Red crepe printed casual saree",
 "url":"#",
 "brand":"Vamsi",
@@ -44,11 +67,16 @@
 "cost":1800,
 "offer":"30%",
 "colour":"Red",
-"category":"crepe"
+"category":"Crepe"
 },
 
 {
+			"id":"cr5",
+
 "location":"images/crepeimages/multicolor/multicolor1.jpg",
+"location1":"images/crepeimages/multicolor/multicolor2.jpg",
+"location2":"images/crepeimages/multicolor/multicolor3.jpg",
+
 "name":"Multicolor crepe bandhani saree",
 "url":"#",
 "brand":"Jashn",
@@ -56,7 +84,7 @@
 "cost":1400,
 "offer":"40%",
 "colour":"Multicolor",
-"category":"crepe"
+"category":"Crepe"
 }
 
 ]

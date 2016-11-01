@@ -53,15 +53,30 @@
         <div id="content">
             <div class="container">
 
+<!-- <div class="col-md-12">
+                    <ul class="breadcrumb">
+                        <li><a href="#">Home</a>
+                        </li>
+                        <li>hiii</li>
+                    </ul>
+                </div>
+ -->
 
+ <div class="col-md-9">
+                    <ul class="breadcrumb">
+                        <li><a href="#/">Home</a>
+                        </li>
+                        <li>{{category}}</li>
+                    </ul>
+                </div>
 
                 <div class="col-md-9">
 
-                    <div class="row" id="productMain"  ng-repeat="item in sareesdata | filter:name ">
+                    <div class="row" id="productMain"  ng-repeat="item in sareesdata | filter:id ">
                         <div class="col-sm-12">
                           <div class="col-sm-8">
                              <div class="picZoomer">
-                                <img src={{item.location}} height="200" width="200" alt="">
+                                <img ng-src={{item.location}} height="200" width="200" alt="">
                             </div>
                         </div>
                         <div class="col-sm-4">
@@ -69,7 +84,7 @@
 
                                 <h3 class="text-center">{{item.name}}</h3>
 
-                                <p class="price">{{item.name}}</p>
+                                <p class="price">{{item.cost}}</p>
 
                                 <p class="text-center buttons">
                                     <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add to cart</a> 
@@ -82,13 +97,13 @@
 
                         <ul class="piclist" >
                          <div class="col-sm-3">
-                             <li><img src={{item.location}} alt="" class="img-responsive" height="100" width="320"></li>
+                             <li><img ng-src={{item.location}} alt="" class="img-responsive" height="100" width="320"></li>
                          </div>
                          <div class="col-sm-3">
-                             <li><img src={{item.location1}} alt="" class="img-responsive" height="100" width="320"></li>
+                             <li><img ng-src={{item.location1}} alt="" class="img-responsive" height="100" width="320"></li>
                          </div>
                          <div class="col-sm-3">
-                             <li><img src={{item.location2}} alt="" class="img-responsive" height="100" width="320"></li>
+                             <li><img ng-src={{item.location2}} alt="" class="img-responsive" height="100" width="320"></li>
                          </div>
                      </ul>
 
@@ -133,101 +148,46 @@
                     </div>
                 </div>
 
-
-
-                <div class="row same-height-row">
-                    <div class="col-md-3 col-sm-6">
+<div class="col-md-3 col-sm-6">
                         <div class="box same-height">
-                            <h3>Products viewed recently</h3>
+                            <h3>Customers Who Bought This Item Also Bought {{category}} Sarees </h3>
                         </div>
                     </div>
 
 
-                    <div class="col-md-3 col-sm-6">
+                <div class="row same-height-row"  >
+                    
+
+                    <div class="col-md-3 col-sm-6"  ng-repeat="item in sareesdata | limitTo : 3"  ng-if="item.id !== id">
                         <div class="product same-height">
                             <div class="flip-container">
                                 <div class="flipper">
                                     <div class="front">
-                                        <a href="detail.html">
-                                            <img src="img/product2.jpg" alt="" class="img-responsive">
+                                        <a href="#detail/{{item.id}}/{{item.category}}">
+                                            <img ng-src={{item.location}} alt="" class="img-responsive">
                                         </a>
                                     </div>
                                     <div class="back">
-                                        <a href="detail.html">
-                                            <img src="img/product2_2.jpg" alt="" class="img-responsive">
+                                        <a href="#detail/{{item.id}}/{{item.category}}">
+                                            <img ng-src={{item.location2}} alt="" class="img-responsive">
                                         </a>
                                     </div>
                                 </div>
                             </div>
-                            <a href="detail.html" class="invisible">
-                                <img src="img/product2.jpg" alt="" class="img-responsive">
+                            <a href="#detail/{{item.id}}/{{item.category}}" class="invisible">
+                                <img ng-src={{item.location}} alt="" class="img-responsive">
                             </a>
                             <div class="text">
-                                <h3>Fur coat</h3>
-                                <p class="price">$143</p>
+                                <h3>{{item.category}} Saree</h3>
+                                <p class="price">{{item.cost}}</p>
                             </div>
                         </div>
                         <!-- /.product -->
-                    </div>
-
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product same-height">
-                            <div class="flip-container">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <a href="detail.html">
-                                            <img src="img/product1.jpg" alt="" class="img-responsive">
-                                        </a>
-                                    </div>
-                                    <div class="back">
-                                        <a href="detail.html">
-                                            <img src="img/product1_2.jpg" alt="" class="img-responsive">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <a href="detail.html" class="invisible">
-                                <img src="img/product1.jpg" alt="" class="img-responsive">
-                            </a>
-                            <div class="text">
-                                <h3>Fur coat</h3>
-                                <p class="price">$143</p>
-                            </div>
-                        </div>
-                        <!-- /.product -->
-                    </div>
-
-
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product same-height">
-                            <div class="flip-container">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <a href="detail.html">
-                                            <img src="img/product3.jpg" alt="" class="img-responsive">
-                                        </a>
-                                    </div>
-                                    <div class="back">
-                                        <a href="detail.html">
-                                            <img src="img/product3_2.jpg" alt="" class="img-responsive">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <a href="detail.html" class="invisible">
-                                <img src="img/product3.jpg" alt="" class="img-responsive">
-                            </a>
-                            <div class="text">
-                                <h3>Fur coat</h3>
-                                <p class="price">$143</p>
-
-                            </div>
-                        </div>
-                        <!-- /.product -->
+                         <!--  <button ng-click = "limit = sareesdata.length">View</button> --> 
+ 
                     </div>
 
                 </div>
-
             </div>
             <!-- /.col-md-9 -->
         </div>
@@ -270,3 +230,4 @@
     });
 </script>
 </html>
+

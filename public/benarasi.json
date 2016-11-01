@@ -1,5 +1,11 @@
 [
-{"location":"images/banarasiimages/blue/BlueSaree1.jpg",
+{	"id":"b1",
+
+	"location":"images/banarasiimages/blue/BlueSaree1.jpg",
+		"location1":"images/banarasiimages/blue/BlueSaree2.jpg",
+				"location2":"images/banarasiimages/blue/BlueSaree3.jpg",
+
+
 "name":"BANARASI SILK WORKS Blue Color Saree",
 "url":"#",
 "brand":"Vaamsi",
@@ -10,7 +16,12 @@
 "category":"Banarasi"},
 
 
-{"location":"images/banarasiimages/purple/purple1.jpg",
+{{	"id":"b2",
+
+	"location":"images/banarasiimages/purple/purple1.jpg",
+		"location1":"images/banarasiimages/purple/purple2.jpg",
+	"location2":"images/banarasiimages/purple/purple3.jpg",
+
 "name":"Purple color Banarasi saree, has a zari woven design along the border",
 "url":"#",
 "brand":"Ishin",
@@ -20,7 +31,13 @@
 "color":"Purple",
 "category":"Banarasi"},
 
-{"location":"images/banarasiimages/pink/pink1.jpg",
+{
+{	"id":"b3",
+
+	"location":"images/banarasiimages/pink/pink1.jpg",
+		"location":"images/banarasiimages/pink/pink2.jpg",
+	"location":"images/banarasiimages/pink/pink3.jpg",
+
 "name":"BANARASI SILK WORKS Pink Patterned Silk Banarasi Saree",
 "url":"#",
 "brand":"Saree swarg",
@@ -32,7 +49,12 @@
 
 
 
-{"location":"images/banarasiimages/red/RedSaree1.jpg",
+{{	"id":"b4",
+
+	"location":"images/banarasiimages/red/RedSaree1.jpg",
+		"location1":"images/banarasiimages/red/RedSaree2.jpg",
+	"location2":"images/banarasiimages/red/RedSaree3.jpg",
+
 "name":"Red color Banarasi saree, has a zari woven design along the border",
 "url":"#",
 "brand":"Jashn",

@@ -33,7 +33,7 @@ app.config(function($routeProvider){
 		controller:'benarasicontroller'
 	})
 
-	.when('/detail/:name/:category',{
+	.when('/detail/:id/:category',{
 		templateUrl:'routeDetail.html',
 		controller:'detailcontroller'
 
@@ -109,6 +109,7 @@ app.config(function($routeProvider){
 	
 app.controller('silkcontroller',function($scope,$http){
 var silklist=$http.get("silk.json");
+$scope.sareeCategory="Silk";
 silklist.success(function(data){
 $scope.sareesdata=data;
 });
@@ -117,6 +118,8 @@ $scope.sareesdata=data;
 
 app.controller('cottoncontroller',function($scope,$http){
 var cottonlist=$http.get("cotton.json");
+$scope.sareeCategory="Cotton";
+
 cottonlist.success(function(data){
 $scope.sareesdata=data;
 });
@@ -124,6 +127,8 @@ $scope.sareesdata=data;
 
 app.controller('crepecontroller',function($scope,$http){
 var crepelist=$http.get("crepe.json");
+$scope.sareeCategory="Crepe";
+
 crepelist.success(function(data){
 $scope.sareesdata=data;
 });
@@ -131,6 +136,8 @@ $scope.sareesdata=data;
 
 app.controller('benarasicontroller',function($scope,$http){
 var banarasilist=$http.get("banarasi.json");
+$scope.sareeCategory="Banarasi";
+
 banarasilist.success(function(data){
 $scope.sareesdata=data;
 });
@@ -143,7 +150,7 @@ app.controller('registercontroller',function($scope,$http){
 
 
 app.controller('detailcontroller',function($scope,$routeParams,$http) {
-     $scope.name = $routeParams.name;
+     $scope.id = $routeParams.id;
            $scope.category = $routeParams.category.toLowerCase();
         var sareeList=$http.get($scope.category+".json");
        sareeList.success(function(data){

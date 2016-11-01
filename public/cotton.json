@@ -1,5 +1,11 @@
 [
-{"location":"images/cottonimages/black/black1.jpg",
+{
+	"id":"c1",
+	"location":"images/cottonimages/black/black1.jpg",
+		"location1":"images/cottonimages/black/black2.jpg",
+			"location2":"images/cottonimages/black/black3.jpg",
+
+
 "name":"Supernet Cotton Zari Border Saree",
 "url":"#",
 "brand":"Vaamsi",
@@ -10,7 +16,12 @@
 "category":"cotton"},
 
 
-{"location":"images/cottonimages/blue/blue1.jpg",
+{	"id":"c2",
+	"location":"images/cottonimages/blue/blue1.jpg",
+		"location1":"images/cottonimages/blue/blue2.jpg",
+			"location2":"images/cottonimages/blue/blue3.jpg",
+
+
 "name":"Cotten Handloom Work Blue Color Saree",
 "url":"#",
 "brand":"Ishin",
@@ -20,7 +31,13 @@
 "color":"blue",
 "category":"cotton"},
 
-{"location":"images/cottonimages/cream/cream1.jpg",
+{	"id":"c3",
+
+	"location":"images/cottonimages/cream/cream1.jpg",
+		"location1":"images/cottonimages/cream/cream2.jpg",
+			"location2":"images/cottonimages/cream/cream3.jpg",
+
+
 "name":"Cream Color Cotton Silk Border Saree with Resham Zari Work",
 "url":"#",
 "brand":"Saree swarg",
@@ -30,7 +47,13 @@
 "color":"cream",
 "category":"cotton"},
 
-{"location":"images/cottonimages/green/green1.jpg",
+{	"id":"c4",
+
+	"location":"images/cottonimages/green/green1.jpg",
+		"location1":"images/cottonimages/green/green2.jpg",
+
+	"location2":"images/cottonimages/green/green3.jpg",
+
 "name":"Angel Designer Sarees New Classy Green Saree",
 "url":"#",
 "brand":"Triveni",
@@ -41,7 +64,13 @@
 "category":"cotton"},
 
 
-{"location":"images/cottonimages/yellow/yellow1.jpg",
+{	"id":"c5",
+
+	"location":"images/cottonimages/yellow/yellow1.jpg",
+		"location1":"images/cottonimages/yellow/yellow2.jpg",
+
+	"location2":"images/cottonimages/yellow/yellow3.jpg",
+
 "name":"Cotton Border Saree with Resham Zari Work",
 "url":"#",
 "brand":"Jashn",
