@@ -116,23 +116,22 @@
              </div>
 
 
-             <div class="box" id="details">
+             <div class="box" id="details"  ng-repeat="item1 in sareesdata | filter:id ">
                 <p>
                     <h4>Product details</h4>
-                    <p>White lace top, woven, has a round neck, short sleeves, has knitted lining attached</p>
+                    <p>{{item1.description}}</p>
                     <h4>Material & care</h4>
                     <ul>
-                        <li>Polyester</li>
                         <li>Machine wash</li>
                     </ul>
-                    <h4>Size & Fit</h4>
+                    <h4>Colour</h4>
                     <ul>
-                        <li>Regular fit</li>
-                        <li>The model (height 5'8" and chest 33") is wearing a size S</li>
+                        <li>{{item1.colour}}</li>
+                     
                     </ul>
 
                     <blockquote>
-                        <p><em>Define style this season with Armani's new range of trendy tops, crafted with intricate details. Create a chic statement look by teaming this lace number with skinny jeans and pumps.</em>
+                        <p><em>Pattern: Plain ,Blouse Pattern: Embroidered Multi work,Saree Length: Length-5.5 mtrs,Width-44 inch ,Blouse Length: Length-44 inch,Width-31 inch Occation: Ethnic.</em>
                         </p>
                     </blockquote>
 
