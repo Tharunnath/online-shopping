@@ -43,8 +43,13 @@ app.config(function($routeProvider){
 	.when('/register',{
 		templateUrl:'registernew.html',
 		controller:'registercontroller'
-	});	
+	})
 
+	.when('/displaysearch/:id',{
+		templateUrl:'searchproducts.html',
+		controller:'searchproductscontroller',
+		
+	});	
 
 	});
 	
@@ -158,3 +163,19 @@ $scope.sareesdata=data;
 });
 });   
 	
+app.controller('searchproductscontroller',function($scope,$routeParams,$http){
+$scope.id = $routeParams.id;
+var searchlistlist=$http.get("totalproducts.json");
+
+searchlistlist.success(function(data){
+$scope.searchdatalist=data;
+
+$scope.searchdata = [];
+var searchdataone=$scope.searchproduct;
+angular.forEach($scope.searchdatalist, function (value, key) {
+	if(value.category==searchdataone || value.color==searchdataone || value.cost==searchdataone){
+            $scope.searchdata.push(value);
+        }
+        }); 
+});
+}); 

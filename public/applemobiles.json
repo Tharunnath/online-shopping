@@ -1,7 +1,0 @@
-[
-{"location":"apples/apple-iphone-6.jpeg","name":"apple-iphone-6","information":"1 GB RAM | 16 GB ROM |4.7 inch Retina HD Display 8MP Primary Camera | 1.2MP Front Li-Ion Battery A8 Chip with 64-bit Architecture and M8 Motion Co-processor Processor","price":36999},
-{"location":"apples/apple-iphone-5s.jpeg","name":"apple-iphone-5s","information":"1 GB RAM | 16 GB ROM |4 inch Retina Display 8MP Primary Camera | 1.2MP Front 1560 mAh Li-Ion Battery A7 Chip with 64-bit Architecture and M7 Motion Coprocessor Processor","price":20999},
-{"location":"apples/apple-iphone-se.jpeg","name":"apple-iphone-se","information":"16 GB ROM |4 inch Retina Display 12MP Primary Camera | 1.2MP Front Li-Ion Battery A9 Chip with 64-bit Architecture and M9 Motion Co-processor Processor","price":34999},
-{"location":"apples/apple-iphone-6s.jpeg","name":"apple-iphone-6s","information":"2 GB RAM | 64 GB ROM |4.7 inch Retina HD Display 12MP Primary Camera | 5MP Front 1715 mAh Li-Ion BatteryA9 Chip with 64-bit Architecture and M9 Motion Co-processor Processor","price":49999},
-{"location":"apples/apple-iphone-7.jpeg","name":"apple-iphone-7","information":"128 GB ROM |4.7 inch Retina HD Display 12MP Primary Camera | 7MP Front Li-Ion Battery A10 Fusion Chip with 64-bit Architecture and Embedded M10 Motion Co-processor Processor","price":70000}
-]

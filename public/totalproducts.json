@@ -1,0 +1,302 @@
+[
+{
+"id":"s1",
+"location":"images/silkimages/blue/blue1.jpg",
+"location1":"images/silkimages/blue/blue2.jpg",
+"location2":"images/silkimages/blue/blue3.jpg",
+"name":"Muskan Floral Silk Sari-Blue",
+"url":"#",
+"brand":"",
+"description":"A national awardee craftsman from the Bagru cluster has masterfully created this unique piece using indigenous printing technique",
+"cost":1550,
+"offer":"50%",
+"colour":"Blue",
+"category":"Silk"
+},
+
+{
+	"id":"s2",
+	"location":"images/silkimages/bluered/bluered1.jpg",
+	"location1":"images/silkimages/bluered/bluered2.jpg",
+	"location2":"images/silkimages/bluered/bluered3.jpg",
+"name":"RAW SILK NEW DESIGNER SAREE-BLUE AND RED BORDER",
+"url":"#",
+"brand":"",
+"description":"A national awardee craftsman from the Bagru cluster has masterfully created this unique piece using indigenous printing technique",
+"cost":1200,
+"offer":"",
+"colour":"MultiColour",
+"category":"silk"
+},
+
+{
+	"id":"s3",
+"location":"images/silkimages/pink/pink1.jpg",
+"location1":"images/silkimages/pink/pink2.jpg",
+"location2":"images/silkimages/pink/pink3.jpg",
+"name":"SAREE MANDIR KANCHAN SILK SAREES CHIFFON-PINK COLOR SAREE",
+"url":"#",
+"brand":"",
+"description":"A national awardee craftsman from the Bagru cluster has masterfully created this unique piece using indigenous printing technique",
+"cost":2500,
+"offer":"",
+"colour":"Pink",
+"category":"silk"
+},
+
+{
+	"id":"s4",
+"location":"images/silkimages/red/red1.jpg",
+"location1":"images/silkimages/red/red2.jpg",
+"location2":"images/silkimages/red/red3.jpg",
+"name":"VIPUL BHAGALPURI SAREE-RED",
+"url":"#",
+"brand":"",
+"description":"A national awardee craftsman from the Bagru cluster has masterfully created this unique piece using indigenous printing technique",
+"cost":1800,
+"offer":"",
+"colour":"Red",
+"category":"silk"
+},
+
+{
+	"id":"s5",
+"location":"images/silkimages/yellow/yellow1.jpg",
+"location1":"images/silkimages/yellow/yellow2.jpg",
+"location2":"images/silkimages/yellow/yellow3.jpg",
+"name":"Muskan Floral Silk Sari-Yellow",
+"url":"#",
+"brand":"",
+"description":"A national awardee craftsman from the Bagru cluster has masterfully created this unique piece using indigenous printing technique",
+"cost":1200,
+"offer":"",
+"colour":"Yellow",
+"category":"silk"
+},
+{
+	"id":"c1",
+	"location":"images/cottonimages/black/black1.jpg",
+		"location1":"images/cottonimages/black/black2.jpg",
+			"location2":"images/cottonimages/black/black3.jpg",
+
+
+"name":"Supernet Cotton Zari Border Saree",
+"url":"#",
+"brand":"Vaamsi",
+"description":"Black and gold-toned traditional saree, has zari detail on the pallu portion and along the border, tassels along the pallu end Comes with a blouse piece",
+"cost":799,
+"offer":"60%",
+"colour":"Black",
+"category":"cotton"},
+
+
+{	"id":"c2",
+	"location":"images/cottonimages/blue/blue1.jpg",
+		"location1":"images/cottonimages/blue/blue2.jpg",
+			"location2":"images/cottonimages/blue/blue3.jpg",
+
+
+"name":"Cotten Handloom Work Blue Color Saree",
+"url":"#",
+"brand":"Ishin",
+"description":"Blue traditional saree, has embroidered detail throughout, contrast panel with woven design along the border",
+"cost":1120,
+"offer":"40%",
+"colour":"Blue",
+"category":"cotton"},
+
+{	"id":"c3",
+
+	"location":"images/cottonimages/cream/cream1.jpg",
+		"location1":"images/cottonimages/cream/cream2.jpg",
+			"location2":"images/cottonimages/cream/cream3.jpg",
+
+
+"name":"Cream Color Cotton Silk Border Saree with Resham Zari Work",
+"url":"#",
+"brand":"Saree swarg",
+"description":"Cream-Coloured traditional saree, has printed detail on the pallu end and along the border",
+"cost":588,
+"offer":"70%",
+"colour":"Cream",
+"category":"cotton"},
+
+{	"id":"c4",
+
+	"location":"images/cottonimages/green/green1.jpg",
+		"location1":"images/cottonimages/green/green2.jpg",
+
+	"location2":"images/cottonimages/green/green3.jpg",
+
+"name":"Angel Designer Sarees New Classy Green Saree",
+"url":"#",
+"brand":"Triveni",
+"description":"Green and beige printed traditional saree, has a zari border with solid detail",
+"cost":398,
+"offer":"50%",
+"colour":"green",
+"category":"cotton"},
+
+
+{	"id":"c5",
+
+	"location":"images/cottonimages/yellow/yellow1.jpg",
+		"location1":"images/cottonimages/yellow/yellow2.jpg",
+
+	"location2":"images/cottonimages/yellow/yellow3.jpg",
+
+"name":"Cotton Border Saree with Resham Zari Work",
+"url":"#",
+"brand":"Jashn",
+"description":"Mustard yellow printed saree",
+"cost":999,
+"offer":"65%",
+"colour":"Yellow",
+"category":"cotton"},
+{
+			"id":"cr1",
+
+"location":"images/crepeimages/white/white1.jpg",
+"location1":"images/crepeimages/white/white2.jpg",
+"location2":"images/crepeimages/white/white3.jpg",
+
+"name":"Fancy New Arrival Hiqh Quality Italian Crepe Silk Printed Saree",
+"url":"#",
+"brand":"Ishin",
+"description":"White traditional saree,Italian Crepe Silk Printed Saree ",
+"cost":1100,
+"offer":"40%",
+"colour":"White",
+"category":"Crepe"
+},
+
+{
+			"id":"cr2",
+"location":"images/crepeimages/blue/blue1.jpg",
+"location1":"images/crepeimages/blue/blue2.jpg",
+"location2":"images/crepeimages/blue/blue3.jpg",
+
+"name":"Anurag Malgudi Silk Pure crepe Silk Saree",
+"url":"#",
+"brand":"Saree Swarg",
+"description":"Blue Border and creme colour saree pure crepe silk saree",
+"cost":1500,
+"offer":"50%",
+"colour":"Blue",
+"category":"crepe"
+},
+
+{
+			"id":"cr3",
+
+"location":"images/crepeimages/yellow/yellow1.jpg",
+"location1":"images/crepeimages/yellow/yellow2.jpg",
+"location2":"images/crepeimages/yellow/yellow3.jpg",
+
+"name":"Yellow Crepe Bandhani Saree",
+"url":"#",
+"brand":"Triveni",
+"description":"Janasya Women's Yellow Crepe Bandhani Saree with red and yellow combination",
+"cost":1250,
+"offer":"50%",
+"colour":"Yellow",
+"category":"crepe"
+},
+
+{
+			"id":"cr4",
+
+"location":"images/crepeimages/red/red1.jpg",
+"location1":"images/crepeimages/red/red2.jpg",
+"location2":"images/crepeimages/red/red3.jpg",
+
+"name":"Kanchnar Women's Black,Beige and Red crepe printed casual saree",
+"url":"#",
+"brand":"Vamsi",
+"description":"Red,Black,Beige crepe printed saree and with a cream and brown colour designed Border.",
+"cost":1800,
+"offer":"30%",
+"colour":"Red",
+"category":"crepe"
+},
+
+{
+			"id":"cr5",
+
+"location":"images/crepeimages/multicolor/multicolor1.jpg",
+"location1":"images/crepeimages/multicolor/multicolor2.jpg",
+"location2":"images/crepeimages/multicolor/multicolor3.jpg",
+
+"name":"Multicolor crepe bandhani saree",
+"url":"#",
+"brand":"Jashn",
+"description":"Janasya Women's multicolor crepe bhandhani saree with different color borders ",
+"cost":1400,
+"offer":"40%",
+"colour":"MultiColour",
+"category":"crepe"
+},
+{	"id":"b1",
+
+	"location":"images/banarasiimages/blue/BlueSaree1.jpg",
+		"location1":"images/banarasiimages/blue/BlueSaree2.jpg",
+	"location2":"images/banarasiimages/blue/BlueSaree3.jpg",
+
+"name":"BANARASI SILK WORKS Blue Color Saree",
+"url":"#",
+"brand":"Vaamsi",
+"description":"Blue and golden Banarasi saree, has striped and zari woven border and pallu portion.",
+"cost":999,
+"offer":"40%",
+"color":"Blue",
+"category":"banarasi"},
+
+
+{"id":"b2",
+	"location":"images/banarasiimages/purple/purple1.jpg",
+	"location1":"images/banarasiimages/purple/purple2.jpg",
+	"location2":"images/banarasiimages/purple/purple3.jpg",
+
+"name":"Purple color Banarasi saree, has a zari woven design along the border",
+"url":"#",
+"brand":"Ishin",
+"description":"Purple self-checked Banarasi saree in a zari woven pattern",
+"cost":699,
+"offer":"75%",
+"color":"Purple",
+"category":"banarasi"},
+
+{
+	"id":"b3",
+	"location":"images/banarasiimages/pink/pink1.jpg",
+	"location1":"images/banarasiimages/pink/pink2.jpg",
+	"location2":"images/banarasiimages/pink/pink3.jpg",
+
+"name":"BANARASI SILK WORKS Pink Patterned Silk Banarasi Saree",
+"url":"#",
+"brand":"Saree swarg",
+"description":"Pink self-checked Banarasi saree, has zari woven design throughout the pallu",
+"cost":1999,
+"offer":"50%",
+"color":"pink",
+"category":"banarasi"},
+
+
+
+{
+"id":"b4",
+	"location":"images/banarasiimages/red/RedSaree1.jpg",
+		"location1":"images/banarasiimages/red/RedSaree2.jpg",
+	"location2":"images/banarasiimages/red/RedSaree3.jpg",
+
+"name":"Red color Banarasi saree, has a zari woven design along the border",
+"url":"#",
+"brand":"Jashn",
+"description":"Red floral pattern Banarasi saree, has zari woven design along the border and pallu portion",
+"cost":1680,
+"offer":"80%",
+"color":"Red",
+"category":"banarasi"}
+
+
+]

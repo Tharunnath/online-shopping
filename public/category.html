@@ -51,7 +51,7 @@ color:red;
     <div id="top">
         <div class="container">
             <div class="col-md-6 offer" data-animate="fadeInDown">
-                <a href="#" class="btn btn-success btn-sm" data-animate-hover="shake">Offer of the day</a>  <a href="#">Get flat 35% off on orders over $50!</a>
+                
             </div>
             <div class="col-md-6" data-animate="fadeInDown">
                 <ul class="menu">
@@ -182,10 +182,10 @@ color:red;
 
                 <form class="navbar-form" role="search">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search">
+                        <input type="text" ng-model="searchproduct " class="form-control" placeholder="Search">
                         <span class="input-group-btn">
 
-			<button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+			<button type="button" class="btn btn-primary"><i class="fa fa-search"></i><a href="#displaysearch/{{searchproduct}}">serach</a></button>
 
 		    </span>
                     </div>
