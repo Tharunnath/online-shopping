@@ -16,9 +16,23 @@ app.config(function($routeProvider){
 	.when('/silk',{
 		templateUrl:'displaysarees.html',
 		controller:'silkcontroller'
-	});
+	})
+
+	.when('/cotton',{
+		templateUrl:'displaysarees.html',
+		controller:'cottoncontroller'
+	})	
 	
-	
+	.when('/crepe',{
+		templateUrl:'displaysarees.html',
+		controller:'crepecontroller'
+	})
+
+	.when('/banarasi',{
+		templateUrl:'displaysarees.html',
+		controller:'benarasicontroller'
+	});	
+
 	});
 	
 	
@@ -88,9 +102,26 @@ $scope.sareesdata=data;
 });      
 
 
+app.controller('cottoncontroller',function($scope,$http){
+var cottonlist=$http.get("cotton.json");
+cottonlist.success(function(data){
+$scope.sareesdata=data;
+});
+}); 
 
+app.controller('crepecontroller',function($scope,$http){
+var crepelist=$http.get("crepe.json");
+crepelist.success(function(data){
+$scope.sareesdata=data;
+});
+}); 
 
-
+app.controller('benarasicontroller',function($scope,$http){
+var banarasilist=$http.get("banarasi.json");
+banarasilist.success(function(data){
+$scope.sareesdata=data;
+});
+}); 
 
 
 

@@ -1,0 +1,62 @@
+[
+
+{
+"location":"images/crepeimages/white/white1.jpg",
+"name":"Fancy New Arrival Hiqh Quality Italian Crepe Silk Printed Saree",
+"url":"#",
+"brand":"Ishin",
+"desc":"White traditional saree,Italian Crepe Silk Printed Saree ",
+"cost":1100
+"offer":"40%",
+"colour":"White",
+"category":"Crepe"
+},
+
+{"location":"images/crepeimages/blue/blue1.jpg",
+"name":"Anurag Malgudi Silk Pure crepe Silk Saree",
+"url":"#",
+"brand":"Saree Swarg",
+"desc":"Blue Border and creme colour saree pure crepe silk saree",
+"cost":1500,
+"offer":"50%",
+"colour":"Blue",
+"category":"crepe"
+},
+
+{
+"location":"images/crepeimages/yellow/yellow1.jpg",
+"name":"Yellow Crepe Bandhani Saree",
+"url":"#",
+"brand":"Triveni",
+"desc":"Janasya Women's Yellow Crepe Bandhani Saree with red and yellow combination",
+"cost":1250,
+"offer":"50%",
+"colour":"Yellow",
+"category":"crepe"
+},
+
+{
+"location":"images/crepeimages/red/red1.jpg",
+"name":"Kanchnar Women's Black,Beige and Red crepe printed casual saree",
+"url":"#",
+"brand":"Vamsi",
+"desc":"Red,Black,Beige crepe printed saree and with a cream and brown colour designed Border.",
+"cost":1800,
+"offer":"30%",
+"colour":"Red",
+"category":"crepe"
+},
+
+{
+"location":"images/crepeimages/multicolor/multicolor1.jpg",
+"name":"Multicolor crepe bandhani saree",
+"url":"#",
+"brand":"Jashn",
+"desc":"Janasya Women's multicolor crepe bhandhani saree with different color borders ",
+"cost":1400,
+"offer":"40%",
+"colour":"Multicolor",
+"category":"crepe"
+}
+
+]
