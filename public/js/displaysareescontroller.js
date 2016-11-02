@@ -31,6 +31,11 @@ app.config(function($routeProvider){
 	.when('/banarasi',{
 		templateUrl:'displaysarees.html',
 		controller:'benarasicontroller'
+	})
+
+	.when('/register',{
+		templateUrl:'registernew.html',
+		controller:'registercontroller'
 	});	
 
 	});
@@ -123,6 +128,10 @@ $scope.sareesdata=data;
 });
 }); 
 
+
+app.controller('registercontroller',function($scope,$http){
+
+}); 
 
 
 
