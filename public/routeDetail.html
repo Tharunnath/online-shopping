@@ -37,6 +37,11 @@
     <script src="js/respond.min.js"></script>
 
     <link rel="shortcut icon" href="favicon.png">
+    <style type="text/css">
+    .capitalize::first-letter {
+  text-transform: uppercase !important;
+}
+</style>
 
 
 
@@ -48,29 +53,20 @@
 
     <!-- *** NAVBAR END *** -->
 
-    <div id="all">
+    <!-- <div id="all">
 
         <div id="content">
-            <div class="container">
-
-<!-- <div class="col-md-12">
-                    <ul class="breadcrumb">
-                        <li><a href="#">Home</a>
-                        </li>
-                        <li>hiii</li>
-                    </ul>
-                </div>
- -->
-
- <div class="col-md-9">
+            <div class="container"> -->
+ <div class="col-md-12">
                     <ul class="breadcrumb">
                         <li><a href="#/">Home</a>
                         </li>
-                        <li>{{category}}</li>
+                        <li><a href=#{{category}} class="capitalize">{{category}}</a></li>
+                        <li>Saree</li>
                     </ul>
                 </div>
 
-                <div class="col-md-9">
+                <div class="col-md-12">
 
                     <div class="row" id="productMain"  ng-repeat="item in sareesdata | filter:id ">
                         <div class="col-sm-12">
@@ -157,7 +153,7 @@
                 <div class="row same-height-row"  >
                     
 
-                    <div class="col-md-3 col-sm-6"  ng-repeat="item in sareesdata | limitTo : 3"  ng-if="item.id !== id">
+                    <div class="col-md-3 col-sm-6"  ng-repeat="item in sareesdata | limitTo : 2"  ng-if="item.id !== id">
                         <div class="product same-height">
                             <div class="flip-container">
                                 <div class="flipper">
@@ -189,15 +185,15 @@
                 </div>
             </div>
             <!-- /.col-md-9 -->
-        </div>
-        <!-- /.container -->
+         <!-- </div> 
+      
     </div>
 
 
 
 
 
-</div>
+</div> -->
 
 
 <script src="js/jquery-1.11.0.min.js"></script>
@@ -228,5 +224,6 @@
         });
     });
 </script>
+
 </html>
 
