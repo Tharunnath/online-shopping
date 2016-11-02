@@ -20,8 +20,8 @@ app.controller("myController",["$scope","$http",function($scope,$http){
 		}
 
 		$scope.customerlogin=function(){
-	console.log("in get method");
-	$http.get("/contatcList/"+$scope.email+"/"+$scope.pwd).success(function(response){
+	
+	$http.get("/contatcList/"+$scope.login.email+"/"+$scope.login.pwd).success(function(response){
 
 		console.log("in controller "+response);
 		alert(response);
