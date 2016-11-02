@@ -209,14 +209,14 @@
   <script type="text/javascript" src="js/jquery.picZoomer.js"></script>
 <script type="text/javascript">
 
-    $(function() {
+    setTimeout(function() {
         $('.picZoomer').picZoomer();
 
         $('.piclist li').on('click',function(event){
             var $pic = $(this).find('img');
             $('.picZoomer-pic').attr('src',$pic.attr('src'));
         });
-    });
+    },100);
 </script>
 
 
