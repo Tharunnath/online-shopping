@@ -188,8 +188,16 @@ $scope.searchdatalist=data;
 
 $scope.searchdata = [];
 var searchdataone=$scope.searchproduct;
+var searchDataValue = searchdataone.toLowerCase();
 angular.forEach($scope.searchdatalist, function (value, key) {
-	if(value.category==searchdataone || value.color==searchdataone || value.cost==searchdataone){
+var colour =value.colour;
+var colourValue = colour.toLowerCase();
+var category =value.category;
+var categoryValue = category.toLowerCase();
+var costValue =value.cost-(value.cost*value.offer)/100;
+costValue=costValue.toFixed(0);
+
+	if(categoryValue==searchDataValue || colourValue==searchDataValue || costValue==searchDataValue){
             $scope.searchdata.push(value);
         }
         }); 
