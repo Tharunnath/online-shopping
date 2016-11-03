@@ -74,9 +74,25 @@ app.config(function($routeProvider){
 		  },20);
 	});
 	
-	var homelist=$http.get("silk.json");
+	var homelist=$http.get("totalproducts.json");
 		homelist.success(function(data){
 		$scope.sareeshomedata=data;
+		//for loadmore concept
+		var pagesShown = 1;
+
+var pageSize = 3;
+
+$scope.paginationLimit = function(data) {
+ return pageSize * pagesShown;
+};
+
+$scope.hasMoreItemsToShow = function() {
+ return pagesShown < ($scope.sareeshomedata.length / pageSize);
+};
+
+$scope.showMoreItems = function() {
+ pagesShown = pagesShown + 1;       
+};
 });	
 
 

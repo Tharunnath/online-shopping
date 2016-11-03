@@ -17,7 +17,7 @@
 				
 				<div class="row products">
                   
-                        <div class="col-md-4 col-sm-6" ng-repeat="item in sareeshomedata">
+                        <div class="col-md-4 col-sm-6" ng-repeat="item in sareeshomedata | limitTo: paginationLimit()">
                             <div class="product">
                                 <div class="flip-container">
                                     <div class="flipper">
@@ -57,5 +57,9 @@
                             <!-- /.product -->
                         </div>
                         <!-- /.col-md-4 -->
+
+                        <button class="btn btn-primary btn-lg" ng-show="hasMoreItemsToShow()" style="float:right;" ng-click="showMoreItems()">
+      Load more
+ </button> 
                     </div>
                     <!-- /.products -->

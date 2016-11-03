@@ -21,3 +21,7 @@ var Contact = module.exports = mongoose.model("contact",contactSchema);//table n
 module.exports.AddContact = function(contact, callback){
 	Contact.create(contact,callback);
 }
+
+module.exports.getCustomerDetails=function(email,pwd,callback){
+Contact.findOne({'email': email,'pwd':pwd}, callback);
+}

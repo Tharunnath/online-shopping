@@ -30,6 +30,21 @@ app.post("/contatcList", function(req,res){
 	})
 });
 
+
+app.get("/contatcList/:email/:pwd",function(req,res){
+
+var email=req.params.email;
+var pwd=req.params.pwd;
+contact.getCustomerDetails(email,pwd,function(err,data){
+	if(err){
+		throw err;
+	}
+	console.log(data);
+		res.json(data);
+
+})
+});
+
 app.listen(PORT,function(){
 	console.log("server is listening at "+ PORT);
 });

@@ -42,7 +42,7 @@
 
                         <hr>
 
-                         <form name="myform" action="customer-orders.html" method="post">
+                         <form name="myform" action="#">
                             <div class="form-group">
                                 <input name="email" type="text" class="form-control" id="email-modal" placeholder="Enter email" ng-model="email" required>
                             <span ng-show="myform.email.$touched && myform.email.$invalid">Email is required.</span>
@@ -53,7 +53,7 @@
                             </div>
 
                             <p class="text-center">
-                                <button class="btn btn-primary"><i class="fa fa-sign-in"></i> Log in</button>
+                                <button class="btn btn-primary" ng-click="customerlogin()""><i class="fa fa-sign-in"></i> Log in</button>
                             </p>
 
                         </form>
