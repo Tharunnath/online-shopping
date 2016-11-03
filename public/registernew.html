@@ -1,3 +1,4 @@
+<div ng-controller="myController">
 <div class="col-md-6">
                     <div class="box">
                         <h1>New account</h1>
@@ -8,24 +9,24 @@
 
                         <hr>
 
-                        <form name="myform" action="customer-orders.html" method="post">
+                        <form name="myform123" method="post">
                             <div class="form-group">
                             <label for="name">Name</label>
-                                <input name="name" type="text" class="form-control" id="name-modal" placeholder="Enter name" ng-model="name" required>
+                                <input name="name" type="text" class="form-control" id="name-modal" placeholder="Enter name" ng-model="contact.name" required>
                             <span ng-show="myform.name.$touched && myform.name.$invalid">Name is required.</span>
                             </div>
                             <div class="form-group">
                             <label for="name">Email</label>
-                                <input name="email" type="text" class="form-control" id="email-modal" placeholder="Enter email" ng-model="email" required>
+                                <input name="email" type="text" class="form-control" id="email-modal" placeholder="Enter email" ng-model="contact.email" required>
                             <span ng-show="myform.email.$touched && myform.email.$invalid">Email is required.</span>
                             </div>
                             <div class="form-group">
                             <label for="name">Password</label>
-                               <input name="pwd" type="password" class="form-control" id="password-modal" placeholder="Enter password" ng-model="pwd" required>
+                               <input name="pwd" type="password" class="form-control" id="password-modal" placeholder="Enter password" ng-model="contact.pwd" required>
                             <span ng-show="myform.pwd.$touched && myform.pwd.$invalid">Password is required.</span>
                             </div>
                             <div class="text-center">
-                                <button type="submit" class="btn btn-primary"><i class="fa fa-user-md"></i> Register</button>
+                                <button type="button" class="btn btn-primary" ng-click="AddContact()"><i class="fa fa-user-md"></i> Register</button>
                             </div>
                         </form>
                     </div>
@@ -60,4 +61,5 @@
                 </div>
 
 
+            </div>
             </div>
