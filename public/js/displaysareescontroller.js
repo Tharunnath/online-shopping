@@ -197,7 +197,7 @@ var categoryValue = category.toLowerCase();
 var costValue =value.cost-(value.cost*value.offer)/100;
 costValue=costValue.toFixed(0);
 
-	if(categoryValue==searchDataValue || colourValue==searchDataValue || costValue==searchDataValue){
+	if(categoryValue==searchDataValue || colourValue==searchDataValue || costValue<=parseFloat(searchDataValue)){
             $scope.searchdata.push(value);
         }
         }); 
