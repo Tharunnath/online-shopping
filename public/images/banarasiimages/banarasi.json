@@ -1,0 +1,44 @@
+[
+{"location":"Banaras sarees/Blue saree/BlueSaree1.jpeg",
+"name":"BANARASI SILK WORKS Blue Color Saree",
+"url":"#",
+"brand":"Vaamsi",
+"desc":"Blue and golden Banarasi saree, has striped and zari woven border and pallu portion.",
+"cost":999,
+"offer":"40%",
+"color":"Blue",
+"category":"Banarasi"},
+
+
+{"location":"Banaras sarees/purple/purple1.jpeg",
+"name":"Purple color Banarasi saree, has a zari woven design along the border",
+"url":"#",
+"brand":"Ishin",
+"desc":"Purple self-checked Banarasi saree in a zari woven pattern",
+"cost":699,
+"offer":"75%",
+"color":"Purple",
+"category":"Banarasi"},
+
+{"location":"Banaras sarees/pink/pink1.jpeg",
+"name":"BANARASI SILK WORKS Pink Patterned Silk Banarasi Saree",
+"url":"#",
+"brand":"Saree swarg",
+"desc":"Pink self-checked Banarasi saree, has zari woven design throughout the pallu",
+"cost":1999,
+"offer":"50%",
+"color":"pink",
+"category":"Banarasi"},
+
+
+
+{"location":"Banaras sarees/Red Saree/RedSaree1.jpeg",
+"name":"Red color Banarasi saree, has a zari woven design along the border",
+"url":"#",
+"brand":"Jashn",
+"desc":"Red floral pattern Banarasi saree, has zari woven design along the border and pallu portion",
+"cost":1680,
+"offer":"80%",
+"color":"Red",
+"category":"Banarasi"}
+]
