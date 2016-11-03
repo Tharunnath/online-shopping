@@ -10,7 +10,7 @@
 "brand":"",
 "description":"A national awardee craftsman from the Bagru cluster has masterfully created this unique piece using indigenous printing technique",
 "cost":1550,
-"offer":"50%",
+"offer":"10",
 "colour":"Blue",
 "category":"Silk"
 },
@@ -25,7 +25,7 @@
 "brand":"",
 "description":"A national awardee craftsman from the Bagru cluster has masterfully created this unique piece using indigenous printing technique",
 "cost":1200,
-"offer":"",
+"offer":"20",
 "colour":"MultiColour",
 "category":"silk"
 },
@@ -40,7 +40,7 @@
 "brand":"",
 "description":"A national awardee craftsman from the Bagru cluster has masterfully created this unique piece using indigenous printing technique",
 "cost":2500,
-"offer":"",
+"offer":"30",
 "colour":"Pink",
 "category":"silk"
 },
@@ -55,7 +55,7 @@
 "brand":"",
 "description":"A national awardee craftsman from the Bagru cluster has masterfully created this unique piece using indigenous printing technique",
 "cost":1800,
-"offer":"",
+"offer":"40",
 "colour":"Red",
 "category":"silk"
 },
@@ -70,7 +70,7 @@
 "brand":"",
 "description":"A national awardee craftsman from the Bagru cluster has masterfully created this unique piece using indigenous printing technique",
 "cost":1200,
-"offer":"",
+"offer":"50",
 "colour":"Yellow",
 "category":"silk"
 }

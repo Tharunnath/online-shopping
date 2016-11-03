@@ -12,7 +12,7 @@
 "brand":"Ishin",
 "description":"White traditional saree,Italian Crepe Silk Printed Saree ",
 "cost":1100,
-"offer":"40%",
+"offer":"40",
 "colour":"White",
 "category":"Crepe"
 },
@@ -28,7 +28,7 @@
 "brand":"Saree Swarg",
 "description":"Blue Border and creme colour saree pure crepe silk saree",
 "cost":1500,
-"offer":"50%",
+"offer":"50",
 "colour":"Blue",
 "category":"crepe"
 },
@@ -45,7 +45,7 @@
 "brand":"Triveni",
 "description":"Janasya Women's Yellow Crepe Bandhani Saree with red and yellow combination",
 "cost":1250,
-"offer":"50%",
+"offer":"50",
 "colour":"Yellow",
 "category":"crepe"
 },
@@ -62,7 +62,7 @@
 "brand":"Vamsi",
 "description":"Red,Black,Beige crepe printed saree and with a cream and brown colour designed Border.",
 "cost":1800,
-"offer":"30%",
+"offer":"30",
 "colour":"Red",
 "category":"crepe"
 },
@@ -79,7 +79,7 @@
 "brand":"Jashn",
 "description":"Janasya Women's multicolor crepe bhandhani saree with different color borders ",
 "cost":1400,
-"offer":"40%",
+"offer":"40",
 "colour":"MultiColour",
 "category":"crepe"
 }

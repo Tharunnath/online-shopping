@@ -10,8 +10,8 @@
 "brand":"Vaamsi",
 "description":"Blue and golden Banarasi saree, has striped and zari woven border and pallu portion.",
 "cost":999,
-"offer":"40%",
-"color":"Blue",
+"offer":"40",
+"colour":"Blue",
 "category":"banarasi"},
 
 
@@ -25,8 +25,8 @@
 "brand":"Ishin",
 "description":"Purple self-checked Banarasi saree in a zari woven pattern",
 "cost":699,
-"offer":"75%",
-"color":"Purple",
+"offer":"25",
+"colour":"Purple",
 "category":"banarasi"},
 
 {
@@ -40,8 +40,8 @@
 "brand":"Saree swarg",
 "description":"Pink self-checked Banarasi saree, has zari woven design throughout the pallu",
 "cost":1999,
-"offer":"50%",
-"color":"pink",
+"offer":"5",
+"colour":"Pink",
 "category":"banarasi"},
 
 
@@ -57,7 +57,7 @@
 "brand":"Jashn",
 "description":"Red floral pattern Banarasi saree, has zari woven design along the border and pallu portion",
 "cost":1680,
-"offer":"80%",
-"color":"Red",
+"offer":"15",
+"colour":"Red",
 "category":"banarasi"}
 ]
