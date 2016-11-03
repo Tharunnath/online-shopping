@@ -1,0 +1,167 @@
+[
+{"location":"images/cottonimages/black/black1.jpg",
+"name":"Supernet Cotton Zari Border Saree",
+"url":"#",
+"brand":"Vaamsi",
+"desc":"Black and gold-toned traditional saree, has zari detail on the pallu portion and along the border, tassels along the pallu end Comes with a blouse piece",
+"cost":799,
+"offer":"60%",
+"color":"black",
+"category":"cotton"},
+
+
+{"location":"images/cottonimages/blue/blue1.jpg",
+"name":"Cotten Handloom Work Blue Color Saree",
+"url":"#",
+"brand":"Ishin",
+"desc":"Blue traditional saree, has embroidered detail throughout, contrast panel with woven design along the border",
+"cost":1120,
+"offer":"40%",
+"color":"blue",
+"category":"cotton"},
+
+{"location":"images/cottonimages/cream/cream1.jpg",
+"name":"Cream Color Cotton Silk Border Saree with Resham Zari Work",
+"url":"#",
+"brand":"Saree swarg",
+"desc":"Cream-Coloured traditional saree, has printed detail on the pallu end and along the border",
+"cost":588,
+"offer":"70%",
+"color":"cream",
+"category":"cotton"},
+
+{"location":"images/cottonimages/green/green1.jpg",
+"name":"Angel Designer Sarees New Classy Green Saree",
+"url":"#",
+"brand":"Triveni",
+"desc":"Green and beige printed traditional saree, has a zari border with solid detail",
+"cost":398,
+"offer":"50%",
+"color":"green",
+"category":"cotton"},
+
+
+{"location":"images/cottonimages/yellow/yellow1.jpg",
+"name":"Cotton Border Saree with Resham Zari Work",
+"url":"#",
+"brand":"Jashn",
+"desc":"Mustard yellow printed saree",
+"cost":999,
+"offer":"65%",
+"color":"yellow",
+"category":"cotton"},
+{
+"location":"images/silkimages/blue/blue1.jpg",
+"location1":"images/silkimages/blue/blue2.jpg",
+"location2":"images/silkimages/blue/blue3.jpg",
+"name":"Muskan Floral Silk Sari-Blue",
+"url":"#",
+"brand":"",
+"description":"",
+"cost":1550,
+"offer":"50%",
+"colour":"Blue",
+"category":"Silk"
+},
+
+{
+	"location":"images/silkimages/bluered/bluered1.jpg",
+	"location1":"images/silkimages/bluered/bluered2.jpg",
+	"location2":"images/silkimages/bluered/bluered3.jpg",
+"name":"RAW SILK NEW DESIGNER SAREE-BLUE AND RED BORDER",
+"url":"#",
+"brand":"",
+"description":"",
+"cost":1200,
+"offer":"",
+"colour":"Blue And Red Combination",
+"category":"silk"
+},
+
+{
+"location":"images/silkimages/pink/pink1.jpg",
+"location1":"images/silkimages/pink/pink2.jpg",
+"location2":"images/silkimages/pink/pink3.jpg",
+"name":"SAREE MANDIR KANCHAN SILK SAREES CHIFFON-PINK COLOR SAREE",
+"url":"#",
+"brand":"",
+"description":"",
+"cost":2500,
+"offer":"",
+"colour":"PINK",
+"category":"silk"
+},
+
+{
+"location":"images/silkimages/red/red1.jpg",
+"location1":"images/silkimages/red/red2.jpg",
+"location2":"images/silkimages/red/red3.jpg",
+"name":"VIPUL BHAGALPURI SAREE-RED",
+"url":"#",
+"brand":"",
+"description":"",
+"cost":1800,
+"offer":"",
+"colour":"red",
+"category":"silk"
+},
+
+{
+"location":"images/silkimages/yellow/yellow1.jpg",
+"location1":"images/silkimages/yellow/yellow2.jpg",
+"location2":"images/silkimages/yellow/yellow3.jpg",
+"name":"Muskan Floral Silk Sari-Yellow",
+"url":"#",
+"brand":"",
+"description":"",
+"cost":1200,
+"offer":"",
+"colour":"YELLOW",
+"category":"silk"
+},
+
+{"location":"images/banarasiimages/blue/BlueSaree1.jpg",
+"name":"BANARASI SILK WORKS Blue Color Saree",
+"url":"#",
+"brand":"Vaamsi",
+"desc":"Blue and golden Banarasi saree, has striped and zari woven border and pallu portion.",
+"cost":999,
+"offer":"40%",
+"color":"Blue",
+"category":"banarasi"},
+
+
+{"location":"images/banarasiimages/purple/purple1.jpg",
+"name":"Purple color Banarasi saree, has a zari woven design along the border",
+"url":"#",
+"brand":"Ishin",
+"desc":"Purple self-checked Banarasi saree in a zari woven pattern",
+"cost":699,
+"offer":"75%",
+"color":"Purple",
+"category":"banarasi"},
+
+{"location":"images/banarasiimages/pink/pink1.jpg",
+"name":"BANARASI SILK WORKS Pink Patterned Silk Banarasi Saree",
+"url":"#",
+"brand":"Saree swarg",
+"desc":"Pink self-checked Banarasi saree, has zari woven design throughout the pallu",
+"cost":1999,
+"offer":"50%",
+"color":"pink",
+"category":"banarasi"},
+
+
+
+{"location":"images/banarasiimages/red/RedSaree1.jpg",
+"name":"Red color Banarasi saree, has a zari woven design along the border",
+"url":"#",
+"brand":"Jashn",
+"desc":"Red floral pattern Banarasi saree, has zari woven design along the border and pallu portion",
+"cost":1680,
+"offer":"80%",
+"color":"red",
+"category":"banarasi"}
+
+
+]
