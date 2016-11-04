@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="myApp">
+<html lang="en" ng-app="myApp" ng-init="user=false">
 
 <head>
 
@@ -50,14 +50,16 @@ color:red;
  _________________________________________________________ -->
     <div id="top">
         <div class="container">
-            <div class="col-md-6 offer" data-animate="fadeInDown">
+            <div class="col-md-6 offer" data-animate="fadeInDown" >
                 
             </div>
-            <div class="col-md-6" data-animate="fadeInDown">
+            <div class="col-md-6" data-animate="fadeInDown" ng-controller="loginctrl">
                 <ul class="menu">
-                    <li><a data-toggle="modal" data-target="#login-modal">Login</a>
+                    
                     </li>
-                    <li><a href="#register">Register</a>
+                    <li ng-hide="{{user}}"><a href="#register">Register</a>
+                    </li>
+                    <li style="color:#fff"> {{welcome}}{{username}}
                     </li>
                    
                     
@@ -323,6 +325,7 @@ color:red;
     <script src="js/categoryController.js"></script>
     <script src="js/displaysareescontroller.js"></script>
     <script src="js/controller.js"></script>
+    <script src="js/logincontroller.js"></script>
     
     
     

@@ -11,12 +11,14 @@ app.controller("myController",["$scope","$http",function($scope,$http){
 		}
 
 
-		$scope.AddContact= function(){
+		$scope.AddContact= function(form){
 			alert();
 			$http.post("/contatcList", $scope.contact).success(function(response){  //contact=""
 				console.log(response);
 				$scope.contact="";
 		alert("Registration successfully completed");
+		form.$setPristine();
+		form.$setUntouched();
 			})
 		}
 
@@ -28,7 +30,7 @@ app.controller("myController",["$scope","$http",function($scope,$http){
 		
 		if(response!= null && response != " "){
 			alert("Login successfully");
-            window.location="category.html";
+             window.location="category.html#?username="+response.name;
 		}else{
 			alert("invalid credentials");
 		}
