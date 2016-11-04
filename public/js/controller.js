@@ -12,7 +12,7 @@ app.controller("myController",["$scope","$http",function($scope,$http){
 
 
 		$scope.AddContact= function(form){
-			alert();
+			
 			$http.post("/contatcList", $scope.contact).success(function(response){  //contact=""
 				console.log(response);
 				$scope.contact="";
