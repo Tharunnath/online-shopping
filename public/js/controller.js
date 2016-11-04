@@ -12,6 +12,7 @@ app.controller("myController",["$scope","$http",function($scope,$http){
 
 
 		$scope.AddContact= function(){
+			alert();
 			$http.post("/contatcList", $scope.contact).success(function(response){  //contact=""
 				console.log(response);
 				$scope.contact="";
@@ -20,14 +21,16 @@ app.controller("myController",["$scope","$http",function($scope,$http){
 		}
 
 		$scope.customerlogin=function(){
-	console.log("in get method");
-	$http.get("/contatcList/"+$scope.email+"/"+$scope.pwd).success(function(response){
+	
+	$http.get("/contatcList/"+$scope.login.email+"/"+$scope.login.pwd).success(function(response){
 
 		console.log("in controller "+response);
-		alert(response);
+		
 		if(response!= null && response != " "){
 			alert("Login successfully");
             window.location="category.html";
+		}else{
+			alert("invalid credentials");
 		}
 	});
 }

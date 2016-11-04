@@ -12,6 +12,14 @@ var contactSchema = mongoose.Schema({
 	pwd:
 		{
 		type:String,	
+		},
+	address:
+		{
+		type:String,	
+		},
+	phonenumber:
+		{
+		type:String,	
 		}
 });
 
