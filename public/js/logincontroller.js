@@ -4,7 +4,9 @@ app.controller("loginctrl",["$scope","$http","$location",function($scope,$http,$
 	$scope.username=$location.search().username;
 	if($scope.username !=null){
 		$scope.user=true;
-		$scope.welcome="Welcome to "
+		$scope.logout=true;
+		$scope.logoutname="Logout";
+		$scope.welcome="Welcome to ";
 	}
 	
 
