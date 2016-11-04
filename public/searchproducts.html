@@ -5,22 +5,22 @@
                                     <div class="flipper">
                                         <div class="front">
                                             <a href="#detail/{{item.id}}/{{item.category}}">
-                                                <img src="{{item.location}}" alt=""  style="width:200px;height:150px;" class="img-responsive">
+                                                <img ng-src="{{item.location}}" alt=""  style="width:200px;height:150px;" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
                                             <a href="#detail/{{item.id}}/{{item.category}}">
-                                                <img src="{{item.location}}" alt=""   style="width:200px;height:150px;" class="img-responsive">
+                                                <img ng-src="{{item.location}}" alt=""   style="width:200px;height:150px;" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
                                 <a href="#detail/{{item.id}}/{{item.category}}" class="invisible">
-                                    <img src="{{item.location}}" alt="" style="width:200px;height:150px;" class="img-responsive">
+                                    <img ng-src="{{item.location}}" alt="" style="width:200px;height:150px;" class="img-responsive">
                                 </a>
                                 <div class="text">
                                     <h3><a href="#detail/{{item.id}}/{{item.category}}">{{item.name}}</a></h3>
-                                    <p class="price"><del>{{item.cost}}</del> {{item.cost-300}}</p>
+                                    <p class="price"><del>{{item.cost}}</del> {{item.cost-(item.cost*item.offer/100) | number:0}} ({{item.offer}}%)</p>
                                     <p class="buttons">
                                         <a href="#detail/{{item.id}}/{{item.category}}" class="btn btn-default">View detail</a>
                                         <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>

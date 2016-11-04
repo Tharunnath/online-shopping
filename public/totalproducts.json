@@ -9,7 +9,7 @@
 "brand":"",
 "description":"A national awardee craftsman from the Bagru cluster has masterfully created this unique piece using indigenous printing technique",
 "cost":1550,
-"offer":"50%",
+"offer":"50",
 "colour":"Blue",
 "category":"Silk"
 },
@@ -24,7 +24,7 @@
 "brand":"",
 "description":"A national awardee craftsman from the Bagru cluster has masterfully created this unique piece using indigenous printing technique",
 "cost":1200,
-"offer":"",
+"offer":"20",
 "colour":"MultiColour",
 "category":"silk"
 },
@@ -39,7 +39,7 @@
 "brand":"",
 "description":"A national awardee craftsman from the Bagru cluster has masterfully created this unique piece using indigenous printing technique",
 "cost":2500,
-"offer":"",
+"offer":"15",
 "colour":"Pink",
 "category":"silk"
 },
@@ -54,7 +54,7 @@
 "brand":"",
 "description":"A national awardee craftsman from the Bagru cluster has masterfully created this unique piece using indigenous printing technique",
 "cost":1800,
-"offer":"",
+"offer":"25",
 "colour":"Red",
 "category":"silk"
 },
@@ -69,7 +69,7 @@
 "brand":"",
 "description":"A national awardee craftsman from the Bagru cluster has masterfully created this unique piece using indigenous printing technique",
 "cost":1200,
-"offer":"",
+"offer":"35",
 "colour":"Yellow",
 "category":"silk"
 },
@@ -85,7 +85,7 @@
 "brand":"Vaamsi",
 "description":"Black and gold-toned traditional saree, has zari detail on the pallu portion and along the border, tassels along the pallu end Comes with a blouse piece",
 "cost":799,
-"offer":"60%",
+"offer":"60",
 "colour":"Black",
 "category":"cotton"},
 
@@ -101,7 +101,7 @@
 "brand":"Ishin",
 "description":"Blue traditional saree, has embroidered detail throughout, contrast panel with woven design along the border",
 "cost":1120,
-"offer":"40%",
+"offer":"40",
 "colour":"Blue",
 "category":"cotton"},
 
@@ -117,7 +117,7 @@
 "brand":"Saree swarg",
 "description":"Cream-Coloured traditional saree, has printed detail on the pallu end and along the border",
 "cost":588,
-"offer":"70%",
+"offer":"70",
 "colour":"Cream",
 "category":"cotton"},
 
@@ -133,7 +133,7 @@
 "brand":"Triveni",
 "description":"Green and beige printed traditional saree, has a zari border with solid detail",
 "cost":398,
-"offer":"50%",
+"offer":"10",
 "colour":"green",
 "category":"cotton"},
 
@@ -150,7 +150,7 @@
 "brand":"Jashn",
 "description":"Mustard yellow printed saree",
 "cost":999,
-"offer":"65%",
+"offer":"30",
 "colour":"Yellow",
 "category":"cotton"},
 {
@@ -165,7 +165,7 @@
 "brand":"Ishin",
 "description":"White traditional saree,Italian Crepe Silk Printed Saree ",
 "cost":1100,
-"offer":"40%",
+"offer":"40",
 "colour":"White",
 "category":"Crepe"
 },
@@ -181,7 +181,7 @@
 "brand":"Saree Swarg",
 "description":"Blue Border and creme colour saree pure crepe silk saree",
 "cost":1500,
-"offer":"50%",
+"offer":"10",
 "colour":"Blue",
 "category":"crepe"
 },
@@ -198,7 +198,7 @@
 "brand":"Triveni",
 "description":"Janasya Women's Yellow Crepe Bandhani Saree with red and yellow combination",
 "cost":1250,
-"offer":"50%",
+"offer":"10",
 "colour":"Yellow",
 "category":"crepe"
 },
@@ -215,7 +215,7 @@
 "brand":"Vamsi",
 "description":"Red,Black,Beige crepe printed saree and with a cream and brown colour designed Border.",
 "cost":1800,
-"offer":"30%",
+"offer":"20",
 "colour":"Red",
 "category":"crepe"
 },
@@ -232,7 +232,7 @@
 "brand":"Jashn",
 "description":"Janasya Women's multicolor crepe bhandhani saree with different color borders ",
 "cost":1400,
-"offer":"40%",
+"offer":"30",
 "colour":"MultiColour",
 "category":"crepe"
 },
@@ -247,8 +247,8 @@
 "brand":"Vaamsi",
 "description":"Blue and golden Banarasi saree, has striped and zari woven border and pallu portion.",
 "cost":999,
-"offer":"40%",
-"color":"Blue",
+"offer":"20",
+"colour":"Blue",
 "category":"banarasi"},
 
 
@@ -262,8 +262,8 @@
 "brand":"Ishin",
 "description":"Purple self-checked Banarasi saree in a zari woven pattern",
 "cost":699,
-"offer":"75%",
-"color":"Purple",
+"offer":"15",
+"colour":"Purple",
 "category":"banarasi"},
 
 {
@@ -277,8 +277,8 @@
 "brand":"Saree swarg",
 "description":"Pink self-checked Banarasi saree, has zari woven design throughout the pallu",
 "cost":1999,
-"offer":"50%",
-"color":"pink",
+"offer":"20",
+"colour":"pink",
 "category":"banarasi"},
 
 
@@ -294,8 +294,8 @@
 "brand":"Jashn",
 "description":"Red floral pattern Banarasi saree, has zari woven design along the border and pallu portion",
 "cost":1680,
-"offer":"80%",
-"color":"Red",
+"offer":"30",
+"colour":"Red",
 "category":"banarasi"}
 
 
