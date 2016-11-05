@@ -45,6 +45,18 @@ contact.getCustomerDetails(email,pwd,function(err,data){
 })
 });
 
+app.get("/contatcList/:id",function(req,res){
+var id=req.params.id;
+contact.getprofile(id,function(err,data){
+	if(err){
+		throw err;
+	}
+	console.log(data);
+		res.json(data);
+
+})
+});
+
 app.listen(PORT,function(){
 	console.log("server is listening at "+ PORT);
 });

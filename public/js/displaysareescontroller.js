@@ -44,6 +44,10 @@ app.config(function($routeProvider){
 		templateUrl:'registernew.html',
 		controller:'registercontroller'
 	})
+	.when('/profile/:id',{
+		templateUrl:'profile.html',
+		controller:'profilecontroller'
+	})
 
 	.when('/displaysearch/:id',{
 		templateUrl:'searchproducts.html',
@@ -177,7 +181,20 @@ app.controller('detailcontroller',function($scope,$routeParams,$http) {
        sareeList.success(function(data){
 $scope.sareesdata=data;
 });
-});   
+}); 
+
+app.controller('profilecontroller',function($scope,$routeParams,$http) {
+     $scope.id = $routeParams.id;
+           $http.get("/contatcList/"+$scope.id).success(function(response){
+
+		console.log("in controller "+response);
+		
+		if(response!= null && response != " "){
+			
+             $scope.contact=response;
+		}
+	});
+});    
 	
 app.controller('searchproductscontroller',function($scope,$routeParams,$http){
 $scope.id = $routeParams.id;
@@ -203,3 +220,5 @@ costValue=costValue.toFixed(0);
         }); 
 });
 }); 
+
+

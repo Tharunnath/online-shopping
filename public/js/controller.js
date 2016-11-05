@@ -30,7 +30,7 @@ app.controller("myController",["$scope","$http",function($scope,$http){
 		
 		if(response!= null && response != " "){
 			alert("Login successfully");
-             window.location="category.html#?username="+response.name;
+             window.location="category.html#?username="+response.name+"&id="+response._id;
 		}else{
 			alert("invalid credentials");
 		}

@@ -1,0 +1,43 @@
+<div ng-controller="myController">
+<div class="col-md-6">
+                    <div class="box">
+                        <h1>Profile Details</h1>
+
+                        <hr>
+
+                        <form name="myform123" method="post">
+                            <div class="form-group">
+                            <label for="name">Name</label>
+                                <input name="name" type="text" class="form-control" id="name-modal" readonly="true"placeholder="Enter name" ng-model="contact.name" required>
+                            
+                            </div>
+                            <div class="form-group">
+                            <label for="name">Email</label>
+                                <input name="email" type="text" class="form-control" id="email-modal" readonly="true" placeholder="Enter email"  ng-model="contact.email" required>
+                            
+                            </div>
+                            <div class="form-group">
+                            <label for="name">Password</label>
+                               <input name="pwd" type="password" class="form-control" id="password-modal" ng-minlength=6 ng-maxlength=10 readonly="true" placeholder="Enter password" ng-model="contact.pwd" required>
+                            
+                            </div>
+                            <div class="form-group">
+                            <label for="name">Address</label>
+                            <textarea name="address" cols="30" placeholder="Enter Adress" id="address-model"  class="form-control" readonly="true" ng-model="contact.address" required>
+                              
+                            </textarea>
+                               
+                           
+                            </div>
+                            <div class="form-group">
+                            <label for="name">Phone Number</label>
+                               <input name="phonenumber" type="text" class="form-control"  readonly="true" id="phonenumber-modal"  placeholder="Enter phonenumber" ng-model="contact.phonenumber" required>
+                            
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+
+                
+            </div>

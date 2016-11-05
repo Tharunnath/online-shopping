@@ -33,3 +33,7 @@ module.exports.AddContact = function(contact, callback){
 module.exports.getCustomerDetails=function(email,pwd,callback){
 Contact.findOne({'email': email,'pwd':pwd}, callback);
 }
+
+module.exports.getprofile=function(id,callback){
+Contact.findOne({'_id': id}, callback);
+}
